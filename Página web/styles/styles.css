@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: rgb(16, 119, 16);
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+}
+
+header{
+    margin-bottom: 1vh;
+
+}
+
+main{
+    height: 71.1vh;
+}
+
+#informacion{
+    background-color: rgb(43, 194, 43);
+    display: flex;
+    align-items: center;
+    height: 8vh;
+}
+
+nav p{
+    margin: 0 25px;
+    color: white;
+}
+
+footer{
+    background-color: black;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    color: white;
+}
