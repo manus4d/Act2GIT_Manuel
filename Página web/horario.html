@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang = "es">
+    
+<head> <!-- Cabezera de la página y cambio de fuente para las letras -->
+    <title>Horario</title>
+    <link rel = "stylesheet" href="./styles/horario.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+    <body>
+        <header>
+            <h1>Entornos de desarrollo</h1>
+            <h5>Actividad 2 GIT y GitHub</h5>
+        </header>
+        <nav id="informacion">
+            <a href="index.html"><p>INICIO</p></a>
+            <p>HORARIO</p>
+            <a href="sobre_mi.html"><p>SOBRE MI</p></a>
+        </nav>
+        <table><!-- Apertura de la tabla -->
+            <tr><!-- Fila superior de la tabla -->
+                <th id="malaga">    </th>
+                <th colspan="5"  id = "titulo">Horario</th>
+            </tr>
+            <tr> <!-- Dias de la semana -->
+                <th id = "horas">Horas</th>
+                <th  class = "dia">Lunes</th>
+                <th  class = "dia">Martes</th>
+                <th class = "dia">Miercoles</th>
+                <th class="dia">Jueves</th>
+                <th class = "dia">Viernes</th>
+            </tr>
+            <tr> <!-- Primera de las clases -->
+                <th class="hora">08:15-09:15</th>
+                <td rowspan = "2"  class = "programacion">Programación</td>
+                <td class = "fol">Fol</td>
+                <td rowspan = "2" class = "entornos">Entornos de desarollo</td>
+                <td rowspan = "2" class = "programacion">Programación</td>
+                <td rowspan = "2" class = "base">Base de datos</td>
+            <tr><!-- Segundo fila de las clases -->
+                <th class="hora">09:15-10:15</th>
+                <td class = "entornos">Entornos de desarollo</td>
+            </tr>
+            <tr><!-- Tercera fila de las clases -->
+                <th class ="hora">10:15-11:15</th>
+                <td class = "base">Base de datos</th>
+                <td class = "lenguaje">Lenguaje de Marcas</th>
+                <td class = "base">Base de datos</td>
+                <td class = "fol">Fol</th>
+                <td class = "sostenibilidad">sostenibilidad</th>
+            </tr>
+            <tr><!-- Fila central que es el recreo -->
+                <th class="hora">11:15-11:45</th>
+                <th colspan = "5" class="recreo">Recreo</th>
+            </tr>
+            <tr><!-- Cuarta fila de las clases -->
+                <th class="hora">11:45-12:45</th>
+                <td class = "base">Base de datos</th>
+                <td rowspan = "3" class = "programacion">Programación</td>
+                <td class = "base">Base de datos</th>
+                <td rowspan = "2" class = "lenguaje">Lenguaje de Marcas</th>
+                <td class = "fol">Fol</th>
+            </tr>
+            <tr><!-- Quinta fila de las clases -->
+                <th class="hora">12:45-13:45</th>
+                <td rowspan = "2" class = "sistemas">Sistemas informáticos</th>
+                <td rowspan = "2" class = "sistemas">Sistemas informáticos</th>
+                <td class = "sistemas">Sistemas informáticos</th>
+            </tr>
+            <tr><!-- Sexta fila de las clases -->
+                <th class="hora">13:45-14:45</th>
+                <td class="digitalizacion">Digitalización aplicada</th>
+                <td class = "programacion">Programación</td>
+            </tr>
+        </table><!-- Cierre de la tabla -->
+    <footer>
+        <h2>Desarrollado por IES Pablo Picasso</h2>
+    </footer>
+    </body>
+</html><!-- Cierre del código -->

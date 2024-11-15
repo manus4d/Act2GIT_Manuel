@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+
+h1{
+    color: rgb(16, 119, 16);
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+}
+
+header{
+    margin-bottom: 1vh;
+
+}
+
+main{
+    height: 71.1vh;
+}
+
+#informacion{
+    background-color: rgb(43, 194, 43);
+    display: flex;
+    align-items: center;
+    height: 8vh;
+}
+
+nav p{
+    margin: 0 25px;
+    color: white;
+}
+
+td, th, tr{ /* Adjuste generico para td, th, tr */
+    border-color: rgb(116, 160, 45);
+    padding: 10px;
+    border-radius: 20px;
+    font-family: 'Zilla Slab';
+    font-size: 20px;
+}
+
+table{ /* ajuste de la tabla generico */
+    margin: auto;
+    width: 60%;
+    height: 50%;
+    text-align: center;
+    margin-top:10px ;
+    position: center;
+}
+
+#malaga{ /* Hueco en blanco a la derecha de la fila superior */
+    border: 0;
+}
+
+#titulo{/* Ajuste del título de la tabla */
+    text-transform: uppercase;
+    background-color: #2b5723;
+    letter-spacing: 60px;  
+    border: 5px #378829 solid;  
+    color: white;
+}
+
+.dia{ /* Ajuste de la columna de los dias de la semana */
+    background-color: #417b34;
+    text-transform: capitalize;
+    border: 5px #53b13e solid;
+    
+}
+
+.programacion{ /* Ajuste de la asigantura programación */
+    background-color: #538c45;
+    text-transform: capitalize;
+    border: 5px #75cf5f solid;
+    
+}
+
+.base{/* Ajuste de la asignatura Base de datos */
+    background-color: #649e55;
+    text-transform: capitalize;
+    border: 5px #2fb90c solid;
+    
+}
+
+.fol{ /* Ajuste de la asigantura Fol */
+   background-color: #76b066; 
+   text-transform: capitalize;
+   border: 5px #305a25 solid;
+   
+}
+
+.recreo{ /* Ajuste de recreo */
+    background-color: #87c276;
+    text-transform: uppercase;
+    letter-spacing: 100px;
+    border: 5px #367723 solid;
+    
+}
+
+.sistemas{ /* Ajuste de la asigantura Sistemas de datos */
+    background-color: #48793c;
+    text-transform: capitalize;
+    border: 5px #23770e solid;
+    
+}
+
+.entornos{ /* Ajuste de la asigantura Entornos */
+    background-color: #57a53d;
+    text-transform: capitalize;
+    border: 5px #96f776 solid;
+    
+}
+
+.lenguaje{ /* Ajuste de la asigantura Lenguaje de marcas */
+    background-color: #7cbe5f;
+    text-transform: capitalize;
+    border: 5px #39be00 solid;
+    
+}
+
+.sostenibilidad{ /* Ajuste de la asigantura Sostenibilidad */
+    background-color: #367c29;
+    text-transform: capitalize;
+    border: 5px #4c7043 solid;
+    
+}
+
+.digitalizacion{ /* Ajuste de la asigantura Dijitalizacion aplicada */
+    background-color: #365d2d;
+    text-transform: capitalize;
+    border: 5px #133a0b solid;
+    
+}
+
+#horas{ /* Ajuste de la celda de la palabra horas */
+    background-color: #417b34;
+    text-transform: capitalize;
+    border: 5px #53b13e solid;
+    
+}
+
+.hora{ /* Ajuste de la horas del dia */
+    background-color: #417b34;
+    text-transform: capitalize;
+    border: 5px #53b13e solid;
+    
+}
+
+footer{
+    background-color: black;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    color: white;
+}
